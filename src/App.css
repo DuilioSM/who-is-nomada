@@ -1,0 +1,98 @@
+.App {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  font-family: 'Roboto', sans-serif;
+}
+.actor_container{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-bottom: 30px;
+  width: 80%;
+  background-color: #f5f5f5;
+  border: 1px solid #ccc;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+.actor_header{
+  display: flex;
+  height: 100px;
+  align-items: center;
+  font-size: 1.8rem;
+  font-weight: bold;
+  background-color: #f5f5f5;
+}
+
+.actor_sider{
+  display: flex;
+  justify-content: center;
+  background-color: #f5f5f5;
+}
+
+.actor_sider--img{
+  border-radius: 5%;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+.actor_sider--name{
+  padding: 5px 0 5px 0;
+  margin: 0;
+  font-size: 1.5em;
+  font-weight: bold;
+  text-align: center;
+}
+.actor_sider--gender{
+  
+  margin: 0 0 5px 0;
+  background-color: #FFCC70;
+  border: 1px solid #d48d07;
+  text-align: center;
+}
+.actor_sider--popularity{
+  text-align: center;
+}
+.content{
+  padding: 0 100px 0 0;
+  background-color: #f5f5f5;
+}
+.content-title{
+  font-weight: 800;
+  font-size: 2rem;
+  padding: 0;
+  margin: 0;
+}
+.movie_container{
+  display: flex;
+  flex-direction: column;
+  padding: 0 10px 0 0;
+}
+.movie_header{
+  display: flex;
+  justify-content: space-between;
+  font-size:1rem;
+}
+.movie_header--title{
+  font-weight: 800;
+}
+.movie_header--rating{
+  display: inherit;
+  font-weight: 800;
+}
+.movie_content{
+  display: flex;
+
+  justify-content: center;
+}
+
+.movie_img{
+  width: 100px;
+}
+.movie_details{
+  width: 100%;
+  padding: 0 20px;
+  font-size: medium;
+}
+.movie_details--release{
+  font-weight: bold;
+}
