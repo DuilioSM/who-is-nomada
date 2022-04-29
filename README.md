@@ -1,6 +1,6 @@
-# Create React App
+# who is nomada
 
-Este proyecto fue creado con create react app [Create React App](https://github.com/facebook/create-react-app).
+Es una aplicación web hecha con react que nos permite saber el nombre de un actor sin saber su nombre, además de que nos permite visualizar algunas películas del mismo. Para poder realizar dicha petición solo requerimos de una foto de dicho actor en formato .png, .PNG, .jpg, .JPG
 
 ## Scripts
 
